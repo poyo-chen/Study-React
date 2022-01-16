@@ -5,9 +5,7 @@ import "./ExpenseFilter.css";
 const ExpenseFilter = (props) => {
 
   const dropdownChangeHandler = (event) => {
-    console.log("event.target.value");
     props.onChangeFilter(event.target.value);
-    console.log("ExpenseFilter.js");
   };
 
   return (
